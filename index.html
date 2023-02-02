@@ -3,157 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <title>Aghase</title>
-        <!-- <link rel="stylesheet" href="css/css-file.css">
-        <script type="text/javascript" scr="js/js-file.js"></script> -->
-        <style>
-            body{
-                background-color: #eaeaea;
-            }
-            table {
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                border-collapse: collapse;
-                width: auto;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            
-            td, th {
-                text-align: center;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                padding: 10px;
-                background-color: #ffffff;
-
-            }
-            
-            tr:nth-child(even) {
-                background-color: #ffffff;
-            }
-
-            th {
-                background-color: rgb(132, 132, 132);
-                color: #ffffff;
-                border-top: none;
-                
-            }
-            
-            td:first-child, th:first-child {
-                border-left: none;
-            }
-
-            table {
-                border-radius: 20px;
-                border-collapse: collapse;
-                border: none;
-            }
-
-            table th,
-            table td {
-                border: none;
-            }
-            table th:first-child {
-                border-radius: 20px 0 0 0;
-            }
-            table th:last-child {
-                border-radius: 0 20px 0 0;
-            }
-            table tr:last-child td:first-child {
-                border-radius: 0 0 0 20px;
-            }
-            table tr:last-child td:last-child {
-                border-radius: 0 0 20px 0;
-            }
-            table tr:hover td {
-                background-color: #ddd;
-            }
-
-            .got7{
-                width: 150px;
-                height: 150px;
-            }
-
-            .logo{
-                display: block;
-                width: auto;
-                height: auto;
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: auto;
-            }
-
-            .member{
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                font-size: 30px;
-                text-align: center;
-                margin-top: 30px;
-                margin-bottom: 30px;;
-            }
-
-            .keyword{
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                font-size: 15px;
-                font-weight: lighter;
-                color: #313131;
-                text-align: center;
-                margin-top: 25px;
-                margin-bottom: auto;
-            }
-
-            a{
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                font-size: 15px;
-                font-weight: bolder;
-                color: #777777;
-                text-align: center;
-                margin-top: 25px;
-                margin-bottom: 20px;
-             }
-
-             .role{
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                font-size: 20px;
-                font-weight: bolder;
-                color: #000000;
-                text-align: center;
-                margin-top: 25px;
-                margin-bottom: 20px;
-             }
-
-             .roles{
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                font-size: 18px;
-                color: #000000;
-                text-align: center;
-                margin-top: 25px;
-                margin-bottom: 20px;
-
-                
-             }
-
-             .factOfGot7{
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                font-size: 14px;
-                color: #777777;
-                text-align: center;
-                margin-top: 50px;
-
-             }
-
-             .Green{
-                color: #10922e;
-             }
-            </style>
+        <!-- Extend CSS file-->
+        <link rel="stylesheet" href="css/styleSheet.css"> 
+        <script type="text/javascript" scr="js/js-file.js"></script>
     </head>
 
     <body>
-        <img class="logo" src="/img/Got7_2022_logo.png" alt="Got7_All">
+        <div class="intro">
+        <img class="logo" src="./img/Got7_2022_logo.png" alt="Got7_All">
         <br>
         <h3 class="keyword">Come and get it, GOT7!<br>안녕하세요, GOT7입니다!</h3>       
         <h2 class="member">MEMBER</h2>
         <a href="https://www.warnermusic.co.kr/artists/got7/#open"><p class="visitWensit">Visit Officially Website</p></a>
+        </div>
         <p></p>
+
+        <div class="tableOfMember">
         <table>
             <tr>
-                <th>Profile</th>
+                <th style="color:rgb(0, 0, 0)">Profile</th> <!--In line CSS-->
                 <th>Name</th>
                 <th>Date of Birth</th>
             </tr>
@@ -173,7 +41,9 @@
                 <td>Mar 28</td>
             </tr>
         </table>
+        </div>
 
+        <div class="allOfMember">
         <h3 class="member">Roles</h3>
         <p class="role">Vocalist</p>
         <ul class="roles">
@@ -188,7 +58,8 @@
             <li>Jackson</li>
             <li>BamBam</li>
         </ol>
-
+        </div>
+        
         <p class="factOfGot7">GOT7 Fandom Name: I GOT7 (Ahgase)<br>GOT7 Official Light Stick Color: <span class="Green">Green </span>and White</p>
 
     </body>

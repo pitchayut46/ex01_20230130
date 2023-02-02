@@ -1,0 +1,135 @@
+body{
+    background-color: #eaeaea;
+}
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    background-color: #ffffff;
+
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+th {
+    background-color: rgb(132, 132, 132);
+    color: #ffffff;
+    border-top: none;
+    
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+table {
+    border-radius: 20px;
+    border-collapse: collapse;
+    border: none;
+}
+
+table th,
+table td {
+    border: none;
+}
+table th:first-child {
+    border-radius: 20px 0 0 0;
+}
+table th:last-child {
+    border-radius: 0 20px 0 0;
+}
+table tr:last-child td:first-child {
+    border-radius: 0 0 0 20px;
+}
+table tr:last-child td:last-child {
+    border-radius: 0 0 20px 0;
+}
+table tr:hover td {
+    background-color: #ddd;
+}
+
+.got7{
+    width: 150px;
+    height: 150px;
+}
+
+.logo{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.member{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;;
+}
+
+.keyword{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #313131;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: auto;
+}
+
+a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #777777;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+ }
+
+ .role{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+ }
+
+ .roles{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+    
+ }
+
+ .factOfGot7{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    text-align: center;
+    margin-top: 50px;
+
+ }
+
+ .Green{
+    color: #10922e;
+ }
