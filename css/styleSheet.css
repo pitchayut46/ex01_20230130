@@ -1,12 +1,12 @@
-body{
+/* body{
     background-color: #eaeaea;
-}
+} */
 table {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-collapse: collapse;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 td, th {
@@ -14,30 +14,32 @@ td, th {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
     background-color: #ffffff;
+    border: 1px solid black;
 
 }
 
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background-color: #ffffff;
-}
+} */
 
 th {
     background-color: rgb(132, 132, 132);
-    color: #ffffff;
+    color: #000000;
     border-top: none;
-    
+    border-color: #000000;
+ 
 }
 
-td:first-child, th:first-child {
+/* td:first-child, th:first-child {
     border-left: none;
-}
+} */
 
 table {
     border-radius: 20px;
     border-collapse: collapse;
-    border: none;
+    border: 1px solid black;
 }
-
+/* 
 table th,
 table td {
     border: none;
@@ -56,8 +58,8 @@ table tr:last-child td:last-child {
 }
 table tr:hover td {
     background-color: #ddd;
-}
-
+} */
+/* 
 .got7{
     width: 150px;
     height: 150px;
@@ -132,4 +134,4 @@ a{
 
  .Green{
     color: #10922e;
- }
+ } */
